@@ -1,5 +1,6 @@
 package com.ndrewcoding.mailmicroservice.services;
 
+import com.ndrewcoding.mailmicroservice.models.EmailModel;
 import com.ndrewcoding.mailmicroservice.repositories.EmailRepository;
 import org.springframework.stereotype.Service;
 
@@ -12,4 +13,7 @@ public class EmailService {
         this.emailRepository = emailRepository;
     }
 
+    public void sendEmail(EmailModel emailModel) {
+
+    }
 }
